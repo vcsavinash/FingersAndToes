@@ -2,10 +2,6 @@
  * @author Avinash
  */
 
-var fingers = document.getElementById('fingers');
-var toes = document.getElementById('toes');
-var ids;
-
 function startCounter() {
 	var countNum = document.getElementById('time-counter-input').value;
 	startCounting(countNum);
@@ -13,7 +9,9 @@ function startCounter() {
 
 function startCounting(countNum){
 	var num = 1;
-	clearIntervals(ids);
+	var fingers = document.getElementById('fingers');
+	var toes = document.getElementById('toes');
+	clearIntervals(document.getElementById('ids'));
 	ids = setInterval(function(){
 		if(num <= countNum){
 			if(num%3 == 0 && num%5 == 0){
@@ -45,12 +43,17 @@ function startCounting(countNum){
 		}
 			
 	}, 1000);
-	
+	var input = document.createElement("input");
+	input.setAttribute("type", "hidden");
+	input.setAttribute("id", "ids");
+	input.setAttribute("value", ids);
 }
 
 function restartCounter() {
     document.getElementById('counter').innerHTML = "0";
     var countNum = document.getElementById('time-counter-input').value;
+    var fingers = document.getElementById('fingers');
+	var toes = document.getElementById('toes');
     toes.style.backgroundColor = '#ffffff';
 	toes.style.color = '#78859e';
     fingers.style.backgroundColor = '#ffffff';
@@ -60,7 +63,9 @@ function restartCounter() {
 }
 
 function resetCounter() {
-    clearIntervals(ids);
+    clearIntervals(document.getElementById('ids'));
+    var fingers = document.getElementById('fingers');
+	var toes = document.getElementById('toes');
     toes.style.backgroundColor = '#ffffff';
 	toes.style.color = '#78859e';
     fingers.style.backgroundColor = '#ffffff';
