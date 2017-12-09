@@ -27,16 +27,17 @@ html, body {
   top:0%;
   height: 15%;
   position: absolute;
-  background-color: aqua;
+  background-color: #384c71;;
   width: 100%;
   text-align: center;
+  color: #ffffff;
 	}
 	
 .header h1{
   top:15%;
   height: 15%;
   position: absolute;
-  background-color: aqua;
+  background-color: #384c71;;
   width: 100%;
   text-align: center;
 	}
@@ -130,4 +131,8 @@ html, body {
     text-align: center;
     color: #78859e;
     margin-left: 16px;
+	}
+	
+.count-time h1{
+	color: #78859e;
 	}
