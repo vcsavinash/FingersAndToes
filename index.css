@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  	margin:0;
+	height:100%;
+	width:100%;
+	background-color: #f5f5f5;
+    min-width: 1500px;
+    min-height: auto;
+}
+
+.header{
+  top:0%;
+  height: 15%;
+  position: absolute;
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+	}
+	
+.header h1{
+  top:15%;
+  height: 15%;
+  position: absolute;
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+	}
+	
+.count-time-row{
+  padding-top: 10%;
+  height: 30%;
+  width: 100%;
+  text-align: center;
+	
+}
+
+.count-time{
+	margin: 1em;
+	padding-left: 5%;
+	}
+	
+.input-row{
+	
+	}
+
+.restart-counter-button{
+	margin: 1em;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	padding-left: 45%;
+	
+	}
+
+.reset-counter-button{
+	margin: 1em;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	padding-left: 55%;
+	}
+
+.counter-time-row{
+	height: 50%;
+	width: 100%;
+	align-content: flex-start;
+    margin-left: 12.5%px;
+    margin-right: 12.5%px;
+    overflow: hidden;
+    max-width: 870px;
+    display: block;
+    position: relative;
+    vertical-align: top;
+    left: 45%;
+	}
+	
+.counter-show{
+	width: 25%;
+    
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    /* font-size: 24px; */
+    font-weight: 500;
+    text-align: center;
+    color: #78859e;
+    white-space: normal;
+    margin-left: 16px;
+	}
+
+.fingers{
+	width: 25%;
+    
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    /* font-size: 24px; */
+    font-weight: 500;
+    text-align: center;
+    color: #78859e;
+    margin-left: 16px;
+	}
+	
+.toes{
+	width: 25%;
+    
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    /* font-size: 24px; */
+    font-weight: 500;
+    text-align: center;
+    color: #78859e;
+    margin-left: 16px;
+	}
