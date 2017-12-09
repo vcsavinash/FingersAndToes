@@ -1,13 +1,5 @@
 @CHARSET "ISO-8859-1";
 
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -59,9 +51,6 @@ html, body {
 	width: 12%;
 	height: 2%;
 	}	
-.input-row{
-	
-	}
 
 .restart-counter-button{
 	margin: 1em;
@@ -96,7 +85,6 @@ html, body {
 	
 .counter-show{
 	width: 25%;
-    
     border-radius: 4px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -111,7 +99,6 @@ html, body {
 
 .fingers{
 	width: 25%;
-    
     border-radius: 4px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -125,7 +112,6 @@ html, body {
 	
 .toes{
 	width: 25%;
-    
     border-radius: 4px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
