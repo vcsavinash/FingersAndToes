@@ -12,15 +12,15 @@
     <div class="count-time-row">
         <div class="count-time">
             <h1>Count till :</h1>
-            <input type="text" id="time-counter-input" onchange="startCounter()"/>
+            <input type="text" id="time-counter-input" onchange="startCounter()" placeholder="Enter number and click Enter"/>
         </div>
         <div class="input-row">
             <div class="restart-counter-button">
-                <button onclick="restartCounter()" id="restartCounter" name="restartCounter">Restart</button>
+                <input type="button" onclick="restartCounter()" id="restartCounter" name="restartCounter" value="Restart"/>
             </div>
             <div class="reset-counter-button">
-                <button onclick="resetCounter()" id="resetCounter" name="resetCounter">Reset</button>
-            </div>
+            	<button onclick="resetCounter()" id="resetCounter" name="resetCounter">Reset</button>
+        	</div>
         </div>
     </div>
     <div class="counter-time-row">
