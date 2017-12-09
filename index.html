@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Fingers and Toes</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="header">
+        <h1>Welcome to the Coding Challenge - Fingers and Toes</h1>
+    </div>
+    <div class="count-time-row">
+        <div class="count-time">
+            <h1>Count till :</h1>
+            <input type="text" id="time-counter-input" onchange="startCounter()"/>
+        </div>
+        <div class="input-row">
+            <div class="restart-counter-button">
+                <button onclick="restartCounter()" id="restartCounter" name="restartCounter">Restart</button>
+            </div>
+            <div class="reset-counter-button">
+                <button onclick="resetCounter()" id="resetCounter" name="resetCounter">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="counter-time-row">
+        <div class="counter-show">
+            <h1 id="counter">0</h1>
+        </div>
+        <div class="fingers" id="fingers">
+            <h1>Fingers</h1>
+        </div>
+        <div class="toes" id="toes">
+            <h1>Toes</h1>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
